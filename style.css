@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#div01 {
+    width: 378px;
+    height: 489px;
+    border: 1px solid rgba(244, 180, 180, 48%);
+    border-radius: 10px;
+    margin: 150px auto;
+    
+}
+
+
+#img {
+    width: 359px;
+    height: 200.52px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.label {
+    color: #616161;
+    margin-left: 7px;
+    display: block;
+}
+
+
+
+
+.input::placeholder {
+    color: #9E9E9E;
+}
+
+
+
+ .submit {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #6756CB;
+    background-color: #6756CB;
+    border-radius: 10px;
+    color: white;
+    margin: 40px auto;
+    display: block;
+ }
+
+
+
+
+.input-container {
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 315px;
+    display: block;
+}
+
+
+.input {
+    width: 315px;
+    height: 45px;
+    border: 1px solid rgba(244, 180, 180, 48%);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 50px;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+input[type="email"] {
+    background-image: url("user.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+    background-position-x: 290px;
+}
+
+
+input[type="password"] {
+    background-image: url("eyeSlash.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+    background-position-x: 290px;
+} 
